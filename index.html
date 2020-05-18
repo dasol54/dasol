@@ -1,0 +1,170 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./index-css.html">
+<meta charset="UTF-8">
+<title>Index</title>
+    <style>
+        
+        * { margin: 0; padding: 0; }
+        #wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: bisque;
+            background-image: url('./week09/img/%EC%BB%A4%EB%B2%84%EC%82%AC%EC%A7%842.jpg');
+            background-size: cover;
+            background-attachment: scroll;
+        }
+        #button {
+            width: 160px;
+            color: white;
+            text-align: center;
+            /* height: 20px; */
+            padding: 10px 10px 10px 10px;
+            margin:auto;
+            border: 5px solid #bcc25a;
+            border-radius: 500px;
+            background-color: #888f02;
+            font-size: 40px;
+        }
+        #home{
+            color: #fbd648;
+        }
+        #mini{ color: #c3c96c;
+        font-size: 20px;}
+        #button p { 
+            font-size: 16px;
+            text-align: left;
+        }
+        #button a:hover {
+            text-decoration:none;
+            text-align: center;
+            color: white;
+        }
+        #content {
+            text-align: center;
+        }
+        #title {                    
+            font-family: 'Noto Serif KR', serif;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 50px;
+            color:#398bac;
+            background-color: #add1e0;
+            border-radius: 200px;
+            font-size: 5em;
+        }
+        #first {
+            font-family: 'Noto Serif KR', serif;
+            color: aliceblue }
+        #sec{
+            font-family: 'Noto Serif KR', serif;
+            color: aliceblue;
+        }
+        #logo img{
+            border-radius: 50% ;
+        }
+        #profile p {
+            font-size: 20px;
+            margin: 10px;
+        }
+        #profile_introduce {
+            font-size: 16px;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            padding-bottom: 100px;
+        }
+        #main_menu li a {
+            display: inline;
+            list-style-type: none;
+/*             width: 155px; */
+            border-bottom: 1px solid lightgray;
+            
+            
+        }
+        #profile_list li {
+            list-style-type: none;
+            padding: 5px;
+            color: aliceblue
+        }
+  
+
+        #profile {
+            border: 3px solid white;
+    
+        }
+        #main_menu li {
+            
+            list-style-type: none;
+            display: inline;
+            padding-left: 50px;
+            font-size: 40px;
+        }
+         #main_menu li a:hover {
+            text-decoration: none;
+            background-color: #03506e;
+        }
+        
+        #wk{ font-size: ;
+                text-align: center;
+            background-color: #c0b1a3;
+            border-radius: 200px;
+                color: #8c8177; }
+        #du{
+            background-color: #c3dacb;
+            border-radius: 200px;
+            color: #8e9f94;
+        }
+        #dma{
+            background-color: #f28797;
+            border-radius: 200px;
+            color: #b0626e;
+        }
+        #rl{
+            background-color: #fce392;
+            border-radius: 200px;
+            color: #b7a56a;
+        }
+
+    </style>
+    
+</head>
+<body>
+<div id="wrapper">
+        <div id="button">
+            <a id="home" href="./index.html"><strong>홈으로</strong></a>
+            <p id="mini">인터넷기초실습 1-YA</p>
+        </div>
+        <br>
+        <div>
+            <ul id="main_menu">
+                <li><a id="wk" href="./week06/hw02.html">자기소개</a></li>
+                <li><a id="du" href="./week07/hw03.html">여행지 소개</a></li>
+                <li><a id="dma" href="./week08/hw04.html">음식 레시피</a></li>
+                <li><a id="rl" href="./week09/first%20work.html">첫 작업</a></li>
+            </ul>
+        </div>
+        <br>
+        <div id="content">
+
+            <h1 id="title">나만의 웹페이지</h1>
+            <div id="logo">
+                <img src="./week06/img/%EC%82%AC%EC%A7%84.jpeg" alt="변다솔" width="250" title="변다솔">
+            </div>
+            <div id="profile">
+                <p id="first">컴퓨터소프트웨어공학과</p>
+                <p id="sec">1학년 YA반 20202279 <strong>변다솔</strong></p>
+            </div>
+            <div id="profile_introduce">
+               <ul id="profile_list">
+                   <li>나에 대해서</li>
+                   <li>장점: 장점을 이것 저것 설명하는 중</li>
+                   <li>#웹페이지 만들기 #복잡하고 #어렵지만 #재밌다</li>
+               </ul>
+            </div>
+        </div>
+    <!--  본문 끝 -->
+</div>
+</body>
+</html>
