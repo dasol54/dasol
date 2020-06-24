@@ -1,0 +1,76 @@
+/* hw09.css */
+<style>
+    h1{
+        text-align: center;
+    }
+    header #main_menu{
+        padding: 1em;
+        background-color: #d5dffb;
+    }
+    header #main_menu ul{
+        list-style: none;
+        width: 700px;
+        text-align: center;
+        margin: auto;
+    }
+    header #main_menu li{
+        display: inline;
+        margin: 2.5em;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 20px;
+        font-family: 'Gaegu', cursive;
+    }
+    header a{
+        text-decoration: none;
+    }
+    header #main_menu li a:hover{
+        color: #3582e8;
+        text-decoration: none;
+    }
+    section#m1{
+        float: left;
+        width: 200px;
+        margin-left: 50px;
+        font-size: 25px;
+    }
+    h2{
+        color: #8ac5f8;
+        margin-bottom: 0px;
+        font-family: 'Yeon Sung', cursive;
+    }
+    #i{
+        width: 200px;
+        color: #1b78c9;
+        margin-top: 0px;
+        font-family: 'Yeon Sung', cursive;
+    }
+   section#m2{
+        float: left;
+    }
+    section#m2 li{
+        list-style: none;
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 30px;
+        color: #3a7db4;
+        font-family: 'Gaegu', cursive;
+    }
+    section#m3{
+       float: right;
+        margin-right: 80px;
+    }
+        #picture{
+        margin-right: 100px;
+        margin-top: 10px;
+        width: 200px;
+        position: auto;
+    }
+
+    section#m4{
+        clear: both;
+    }
+    section#m4 img{
+        margin-left: 280px;
+    }
+    </style>

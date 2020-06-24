@@ -1,0 +1,52 @@
+/* index0.css */
+<style>
+    h1{
+    text-align: center;
+}
+   header #main_menu{
+        padding: 1em;
+        background-color: #d5dffb;
+    }
+    header #main_menu ul{
+        list-style: none;
+        width: 700px;
+        text-align: center;
+        margin: auto;
+    }
+    header #main_menu li{
+        display: inline;
+        margin: 2.5em;
+        font-style: italic;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Gaegu', cursive;
+    }
+     a{
+        text-decoration: none;
+    }
+    header #main_menu li a:hover{
+        color: #3582e8;
+        text-decoration: none;
+}
+    section#m1{
+        text-align: center;
+/*        width: 200px;*/
+        margin-left: 50px;
+        font-size: 25px;
+    }
+    h2{
+        color: #648fc3;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 2.5em;
+        font-family: 'Yeon Sung', cursive;
+    }
+    #i{
+        text-align: center;
+/*        width: 200px;*/
+        color: #215ca5;
+        margin-top: 0px;
+        font-family: 'Yeon Sung', cursive;
+    }
+
+    </style>

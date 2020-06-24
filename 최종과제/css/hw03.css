@@ -1,0 +1,23 @@
+<style>
+h1{ text-align: center;
+          text-shadow: 5px 5px 2px #cccccc;
+          font-weight: bold;}
+      h2 { text-align: center;
+          color: pink;
+          font-weight: bold;
+          background: #ffffcc }
+      h3 { text-align: center;
+           color:hotpink;}
+      p { text-align: center;}
+      ul {list-style-type: none;
+         text-align: center; }
+      .제목{ font-weight: bold;
+            font-style: italic;
+            color: #0066ff;}
+      #가격표{ color: red;}
+      #입장정보{ color: red;}
+      #제주{ border: 1px solid #FFFFFF;
+             border-radius: 100%;}
+      #개선문 {border: 1px solid #FFFFFF;
+             border-radius: 100%;}
+</style>

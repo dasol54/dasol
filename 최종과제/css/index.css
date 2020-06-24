@@ -1,0 +1,124 @@
+/* index.css     */
+<style>
+        
+* { margin: 0; padding: 0;}
+        #wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: bisque;
+            background-image: url('../img/pattern_yellow.png');
+            background-size: cover;
+            background-attachment: scroll;
+        }
+        #button {
+            width: 160px;
+            color: white;
+            text-align: center;
+            /* height: 20px; */
+            padding: 10px 10px 10px 10px;
+            margin:0 auto;
+            border: 5px solid #bcc25a;
+            border-radius: 500px;
+            background-color: #888f02;
+            font-size: 30px;
+        }
+        #home{
+            color: #fbd648;
+        }
+        #mini{ color: #c3c96c;
+        font-size: 20px;}
+        #button p { 
+            font-size: 16px;
+            text-align: left;
+        }
+        #button a:hover {
+            text-decoration:none;
+            text-align: center;
+            color: white;
+        }
+        #content {
+            text-align: center;
+        }
+        #title {                    
+            font-family: 'Noto Serif KR', serif;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 50px;
+            color:#398bac;
+            background-color: #add1e0;
+            border-radius: 200px;
+            font-size: 5em;
+        }
+        #first {
+            font-family: 'Noto Serif KR', serif;
+            color: aliceblue }
+        #sec{
+            font-family: 'Noto Serif KR', serif;
+            color: aliceblue;
+        }
+        #logo img{
+            border-radius: 50% ;
+        }
+        #profile p {
+            font-size: 20px;
+            margin: 10px;
+        }
+        #profile_introduce {
+            font-size: 16px;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            padding-bottom: 100px;
+        }
+        #main_menu li a {
+            display: inline;
+            list-style-type: none;
+            width: 100px; 
+            border-bottom: 1px solid lightgray;
+            
+            
+        }
+        #profile_list li {
+            list-style-type: none;
+            padding: 5px;
+            color: aliceblue
+        }
+  
+
+        #profile {
+            border: 3px solid white;
+    
+        }
+        #main_menu li {
+            
+            list-style-type: none;
+            display: inline;
+            padding-left: 50px;
+            font-size: 40px;
+        }
+         #main_menu li a:hover {
+            text-decoration: none;
+            background-color: #03506e;
+        }
+        
+        #wk{ font-size: ;
+            text-align: center;
+            background-color: #c0b1a3;
+            border-radius: 200px;
+            color: #8c8177; }
+        #du{
+            background-color: #c3dacb;
+            border-radius: 200px;
+            color: #8e9f94;
+        }
+        #dma{
+            background-color: #f28797;
+            border-radius: 200px;
+            color: #b0626e;
+        }
+        #rl{
+            background-color: #fce392;
+            border-radius: 200px;
+            color: #b7a56a;
+        }
+
+    </style>

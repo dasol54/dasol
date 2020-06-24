@@ -1,0 +1,25 @@
+<style>
+    * { margin: 0; padding: 0; }
+/*    <link rel="stylesheet" href="../index-css.html">*/
+
+    
+    body{
+        text-align: center;
+    }
+    p{font-style: oblique;
+          color: deeppink;
+    }
+    h2{
+        color: hotpink;
+        text-decoration: underline
+    }
+    ul{
+        color: darkcyan;
+        font-size: 20;
+    }
+    li{ list-style: none;
+        color: darksalmon;
+        font-size: 15
+    }
+        
+    </style>

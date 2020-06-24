@@ -1,0 +1,80 @@
+/* character.css */
+<style>
+    h1{
+        text-align: center;
+    }
+    header #main_menu{
+        padding: 1em;
+        background-color: #d5dffb;
+    }
+    header #main_menu ul{
+        list-style: none;
+        width: 700px;
+        text-align: center;
+        margin: auto;
+    }
+    header #main_menu li{
+        display: inline;
+        margin: 2.5em;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 20px;
+        font-family: 'Gaegu', cursive;
+    }
+     a{
+        text-decoration: none;
+    }
+    header #main_menu li a:hover{
+        color: #3582e8;
+        text-decoration: none;
+    }
+    section#m1{
+        float: left;
+        width: 200px;
+        margin-left: 50px;
+        font-size: 25px;
+    }
+    h2{
+        color: #8ac5f8;
+        margin-bottom: 0px;
+        font-family: 'Yeon Sung', cursive;
+    }
+    #i{
+        width: 200px;
+        color: #1b78c9;
+        margin-top: 0px;
+        font-family: 'Yeon Sung', cursive;
+    }
+   section#m2{
+        float: left;
+    }
+    section#m2 li{
+        list-style: none;
+        font-size: 30px;
+        margin-top: 30px;
+        color: #3a7db4;
+        font-family: 'Gaegu', cursive;
+    }
+    section#m3{
+        list-style: none;
+/*        float: right;*/
+        margin-right: 100px;
+        margin-top: 75px;
+    }
+    section#m3 ul{
+        list-style: none;
+    }
+    section#m3 li{
+        margin: 3px;
+        font-size: 25px;
+        margin-bottom: 75px;
+        height: 80px;
+        font-family: 'Gaegu', cursive;
+    }
+    section#m2 p{
+        margin-left: 25px;
+        margin-top: 5px;
+        font-size: 22px;
+        font-family: 'Gaegu', cursive;
+    }
+    </style>
